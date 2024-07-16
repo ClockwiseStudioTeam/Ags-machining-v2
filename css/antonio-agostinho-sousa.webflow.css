@@ -3494,6 +3494,29 @@ figcaption {
   padding-right: 2rem;
 }
 
+.button-3 {
+  text-align: right;
+  border-radius: 20px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+}
+
+.button-3:hover {
+  grid-column-gap: 28px;
+  grid-row-gap: 28px;
+  padding-top: 0;
+}
+
+.button-4 {
+  border-radius: 7px;
+  margin-top: 29px;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 991px) {
   .section.cc-cta {
     padding-left: 0;
